@@ -8,6 +8,9 @@ Android app using Arduino-Blockly.
 
 안드로이드 앱에서 작동하는 blockly 기반의 편집기에 아두이노와 연동하는 Javascript 기반의 대응 동작을 통해 작동한다.
 
+![실행구조](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/a2424154-de65-4809-9ab5-2d1f3587d383)
+
+
 ## 아두이노
 
 - 아두이노에서 안드로이드와 연결하기 위해 블루투스를 사용한다. 
