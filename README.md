@@ -11,7 +11,8 @@ Android app using Arduino-Blockly.
 
 안드로이드 앱에서 작동하는 blockly 기반의 편집기에 아두이노와 연동하는 Javascript 기반의 대응 동작을 통해 작동한다.
 
-![실행구조](https://github.com/iblockly/ArduBlocklyAndroid/assets/ArduBlockly_SysConfig.png)
+![ArduBlockly_SysConfig](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/f9204ce7-a21e-4e3c-8ff1-1af2e2717b5c)
+
 
 ## 안드로이드
 - 'Blockly' 기반의 스크레치 기반의 블럭 코드를 입력하면
@@ -38,7 +39,6 @@ Android app using Arduino-Blockly.
 
 ### 아두이노-블루투스 연결
 
-![아두이노_블루투스연결](https://github.com/iblockly/ArduBlocklyAndroid/assets/ArduinoUNO-Bluetooth_Sch.png)
 
 아두이노 UNO를 사용할 경우 그림과 같이 연결한다.  블루투스 전원은 사용하는 모듈의 전원을 확인하고 5V인가를 확인하고 다르다면 적당한 Vcc 전원을 선택하여 연결한다.
 아두이노의 블루투스 연결에서 소프트웨어의 선택에서 ‘SoftwareSerial’ 라브러리를 사용할 경우 가끔 오류가 발생할 가능성이 있다. 따라서 USB 쪽에서 사용하는 포트0(RX),1(TX)와 중복 되므로 실행 과정에서 USB에 시리얼 통신을 사용하면 블루투스와 충돌이 일어나므로 통신을 사용하면 안된다. ‘arduino’ 폴더에 제공하는 코드에서는 블루투스 통신은 ‘Serial’ 클래스를 사용하였다.
