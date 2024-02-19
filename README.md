@@ -1,11 +1,12 @@
 
 ---
 
-<span style="color: red;"> 이 사이트는 작업 중 </span>
-
-<p style="color: red;">........ 편집 중 .........</p>
+<img src="assets/message_working.svg" />
 
 ---
+
+
+
 
 # ArduBlocklyAndroid
 Android app using Arduino-Blockly.
@@ -42,10 +43,10 @@ blockly-android는 안드로이드 앱으로 블록코드 입력 및 실행 소�
 - 클럭 코드를 완성했다면, 실행 버튼을 누른다.
 - 블럭 코드에 따라 앱의 입출력 및 아두이노 입출력을 통해 원하는 기능이 작동하는지 확인한다.
 
+<br />
+<br />
+
 ## 안드로이드 앱 설치
-
-<br>
-
 ----
 <p style="color: red;"> --- 현재 구글의 ‘Play 스토어’에 안드로이드 앱을 등록 진행 중 ---</p>
 
