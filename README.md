@@ -71,7 +71,7 @@ blockly-android는 안드로이드 앱으로 블록코드 입력 및 실행 소�
 스크래치 프로그램은 다음과 같은 화면에서 입력한다.
 
 
-![ArduBlockly_block_code](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/93fd1a96-a8a6-4a51-a438-30ed941f38c5)
+<img src="https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/93fd1a96-a8a6-4a51-a438-30ed941f38c5" width="40%" height="40%">
 
 
 ### 블록코드 종류 및 기능
@@ -140,7 +140,7 @@ repeat, while, for 처리를 한다
 ## 스크래치 실행
 엡에서 실행 버튼을 누르면 다음과 같은 화면으로 표시되면서 JS 코드가 실행된다.
 
-![ArduinoBlockly_run_st](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/11b65fdd-e65a-4ea6-830a-ec264c996823)
+<img src="https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/11b65fdd-e65a-4ea6-830a-ec264c996823" width="40%" height="40%">
 
 위의 화면은 portrait 모드로 동작하는 실행 화면이다. 아래쪽에 버튼 및 조이스틱 인터페이스가 실행된다. 이 인터페이스는 블록 이벤트를 코딩하면 연계되어 실행된다.
 
