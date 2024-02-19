@@ -1,6 +1,11 @@
 
- ... 이 사이트는 작업 중 ... 
-<BR> ........ 편집 중 .........
+---
+
+<span style="color: red;"> 이 사이트는 작업 중 </span>
+
+<p style="color: red;">........ 편집 중 .........</p>
+
+---
 
 # ArduBlocklyAndroid
 Android app using Arduino-Blockly.
@@ -39,10 +44,15 @@ blockly-android는 안드로이드 앱으로 블록코드 입력 및 실행 소�
 
 ## 안드로이드 앱 설치
 
---- 현재 구글의 ‘Play 스토어’에 안드로이드 앱을 등록 진행 중 ---<br>
+<br>
 
+----
+<p style="color: red;"> --- 현재 구글의 ‘Play 스토어’에 안드로이드 앱을 등록 진행 중 ---</p>
 
+-----
 
+<br />
+<br />
 
 ## 아두이노
 
@@ -71,7 +81,7 @@ blockly-android는 안드로이드 앱으로 블록코드 입력 및 실행 소�
 스크래치 프로그램은 다음과 같은 화면에서 입력한다.
 
 
-<img src="https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/93fd1a96-a8a6-4a51-a438-30ed941f38c5" width="40%" height="40%">
+<img src="https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/93fd1a96-a8a6-4a51-a438-30ed941f38c5" width="40%" height="40%" alt="ArduBlockly_block_code" />
 
 
 ### 블록코드 종류 및 기능
@@ -140,7 +150,7 @@ repeat, while, for 처리를 한다
 ## 스크래치 실행
 엡에서 실행 버튼을 누르면 다음과 같은 화면으로 표시되면서 JS 코드가 실행된다.
 
-<img src="https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/11b65fdd-e65a-4ea6-830a-ec264c996823" width="40%" height="40%">
+<img src="https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/11b65fdd-e65a-4ea6-830a-ec264c996823" width="40%" height="40%"  alt="ArduinoBlockly_run_st" />
 
 위의 화면은 portrait 모드로 동작하는 실행 화면이다. 아래쪽에 버튼 및 조이스틱 인터페이스가 실행된다. 이 인터페이스는 블록 이벤트를 코딩하면 연계되어 실행된다.
 
@@ -182,7 +192,7 @@ repeat, while, for 처리를 한다
 ‘실행’ 메뉴에 의해 프로그램이 시작되면 실행되는 ‘이벤트’ 가 이 블럭이다. 따라서 실행 처음 한번 실행되고 ‘반복’ 블록으로 무한 반복 실행된다.
 ‘초기화’ 블록 코드의 경우 변수 초기, 아두이노 초기 설정 등을 코딩할 수 있다.
 
-![blockly_exam_init](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/276c79c3-c338-4e89-a7ca-74e377d5bc77)
+<img src="https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/276c79c3-c338-4e89-a7ca-74e377d5bc77" width="30%" height="30%" alt="blockly_exam_init" />
 
 1.	아두이노에 내장된 LED 끄기
 2.	변수 ‘item’ 초기화
@@ -194,7 +204,7 @@ repeat, while, for 처리를 한다
 ## 아두이노 디지털 입력 
 아두이노의 디지털 포트로부터 상태를 읽어 전달되는 값이다. 보트 숫자는 아두이노의 포트 번호이다.
 
-![blockly_exam_loop](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/20a35659-b883-4a1a-a487-032b07f5b9f4)
+<img src="https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/20a35659-b883-4a1a-a487-032b07f5b9f4" width="40%" height="40%"  alt="blockly_exam_loop" />
 
 1.	만약 아두이노 디지털 포트 7 핀의 상태가 LOW이면
 2.	LED을 끄고, 포트 3의 PWM 포트에 200을 설정한다. 
@@ -207,7 +217,7 @@ repeat, while, for 처리를 한다
 - d,a: d는 원점으로부터 거리값이고, a는 각도값이며, 360도 값이다.
 위의 두값 모두 전달되므로 선택적으로 사용할 수 있다. 4개의 값은 JS의 전역변수로 처리된다.
 
-![blockly_exam_joystick](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/0a209e23-e766-4e5c-bb30-eb28176d6bb6)
+<img src="https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/0a209e23-e766-4e5c-bb30-eb28176d6bb6" width="40%" height="40%"  alt="blockly_exam_joystick" />
 
 1.	조이스틱이 움직일 때, 좌표값 x,y에 그림을 움직인다.
 
