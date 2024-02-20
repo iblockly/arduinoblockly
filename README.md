@@ -70,7 +70,31 @@ blockly-android는 안드로이드 앱으로 블록코드 입력 및 실행 소�
 
 
 아두이노 UNO를 사용할 경우 그림과 같이 연결한다.  블루투스 전원은 사용하는 모듈의 전원을 확인하고 5V인가를 확인하고 다르다면 적당한 Vcc 전원을 선택하여 연결한다.<br>
-아두이노의 블루투스 연결에서 소프트웨어의 선택에서 ‘SoftwareSerial’ 라브러리를 사용할 경우 가끔 오류가 발생할 가능성이 있다. 따라서 USB 쪽에서 사용하는 포트0(RX),1(TX)와 중복 되므로 실행 과정에서 USB에 시리얼 통신을 사용하면 블루투스와 충돌이 일어나므로 통신을 사용하면 안된다. ‘arduino’ 폴더에 제공하는 코드에서는 블루투스 통신은 ‘Serial’ 클래스를 사용하였다.<br>
+아두이노의 블루투스 연결에서 소프트웨어의 선택에서 ‘SoftwareSerial’ 라브러리를 사용할 경우 가끔 오류가 발생할 가능성이 있다. 따라서 USB 쪽에서 사용하는 포트0(RX),1(TX)와 중복 되므로 실행 과정에서 USB에 시리얼 통신을 사용하면 블루투스와 충돌이 일어나므로 통신을 사용하면 안된다. ‘arduino’ 폴더에 제공하는 코드에서는 블루투스 통신은 ‘Serial’ 클래스를 사용하였다.
+
+![Arduino_SerialPort](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/30cfeab5-0d97-4c75-935a-7fe2bc82f49c)
+
+```c++
+// arduboard.h
+#if defined (__AVR_ATmega328__)
+ #define UNO
+#elif defined (__AVR_ATmega328P__) 
+ #define UNO
+#elif defined (__AVR_ATmega2560__)
+ #define MEGA
+#endif
+```
+‘보드’ 선택을 하면 2가지의 요소가 결정되는데, 각각의 시리얼 통신은 다른 시리얼포트를 사용한다.
+
+```c++
+#ifdef UNO
+ #define SerialBt Serial
+#elif defined(MEGA)
+ #define SerialBt Serial1
+#endif
+```
+
+![Arduino_Serial](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/07e7e573-e2c7-41bf-b23c-cbacca62bd23)
 
 
 # 안드로이드앱 실행
@@ -229,5 +253,7 @@ repeat, while, for 처리를 한다
 
 # 마무리
 
-이 프로젝트는 현재 개발이 진행되고 있는 앱이며, 문제점을 내포할 수 있다. 기초적인 기능만이 구현된 상황이므로 시험을 통해 추가 또는 변경이 필요될 수 있다.
+이 프로젝트는 현재 개발이 진행되고 있는 앱이며, 문제점을 내포할 수 있다. 
+
+기초적인 기능만이 구현된 상황이므로 시험을 통해 블록 등은 추가 또는 변경이 필요할 수 있다.
 
