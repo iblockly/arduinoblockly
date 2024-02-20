@@ -19,6 +19,10 @@ Android app using Arduino-Blockly.
 
 안드로이드 앱에서 작동하는 blockly 기반의 편집기에 아두이노와 연동하는 Javascript 기반의 대응 동작을 통해 작동한다.
 
+![AndroidBlocklyCodeProc](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/c8da7f1f-efea-42f0-a339-6e526d9d4c7f)
+
+안드로이드와 아두이노 사이에는 블루투스 통신을 통해 스크래치 코드의 실행을 연동한다. 스크래치 코드의 실행은 안드로이드에서 하고 아두이노에는 포트의 읽기와 쓰기를 주로 담당한다.
+
 ![ArduBlockly_SysConfig](https://github.com/iblockly/ArduBlocklyAndroid/assets/160044072/f9204ce7-a21e-4e3c-8ff1-1af2e2717b5c)
 
 
