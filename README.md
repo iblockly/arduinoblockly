@@ -54,6 +54,13 @@ blockly-android는 안드로이드 앱으로 블록코드 입력 및 실행 소�
 ----
 <p style="color: red;"> --- 현재 구글의 ‘Play 스토어’에 안드로이드 앱을 등록 진행 중 ---</p>
 
+앱 설치 (Google Play): https://play.google.com/store/apps/details?id=kr.icom.blockly.app
+
+웹에서 참여:
+[https://play.google.com/store/apps/details?id=kr.icom.blockly.app](https://play.google.com/apps/testing/kr.icom.blockly.app)
+
+
+
 -----
 
 <br />
