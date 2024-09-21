@@ -1,13 +1,3 @@
-
----
-
-<img src="assets/message_working.svg" />
-
----
-
-
-
-
 # ArduBlocklyAndroid
 Android app using Arduino-Blockly.
 
